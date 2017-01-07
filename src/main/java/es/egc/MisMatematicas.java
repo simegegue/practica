@@ -1,5 +1,6 @@
 package es.egc;
-import org.apache.log4j.*; 
+
+import org.apache.log4j.Logger;
 
 /**
  * DIVISION
@@ -21,4 +22,5 @@ public class MisMatematicas{
 		int result= a*b;
 		log.info("Returning "+a+"*"+b+"="+result);
 		return result;
+}
 }
